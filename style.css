@@ -5,53 +5,55 @@
 .ShopTop{
     background-color: rgb(255, 183, 49);
     width: 100vw;
-    height: 30vh;
+    height: 20vh;
     display: flex;
-}
-.ButtonFerm{
-    width: 70px;
-    height: 70px;
-    display: flex;
-}
-.ButtonFactory{
-    width: 70px;
-    height: 70px;
-    display: flex;
-}
-.ButtonBank{
-    width: 70px;
-    height: 70px;
-    display: flex;
+    text-align: center;
 }
 
-.field1Left{
-    width: 100vw;
-    height: 40vh;
+
+.CookIMG{ 
+    width: 250px;
     display: flex;
+    text-align: center;
 }
-.CookIMG{
-    width: 150px;
-    display: flex;
-}
+
 .field2Right{
-    width: 100vw;
-    height: 40vh;
+    width: 80vw;
+    height: 90vh;
     display: flex;
+    transform: translateX(82%);
 }
 
 .ShopDown{
     background-color: rgb(255, 183, 49);
     width: 100vw;
-    height: 30vh;
+    height: 20vh;
     display: flex;
 }
 .ButtonMagazin{
     background-color: #ff00c8; 
-    border: 2px solid #ffff00;
+    border: 3px solid #ffff00;
     color: rgb(0, 26, 255);
-    padding: 15px 32px;
+    padding: 8px 25px;
     text-align: center;
     border-radius: 16px;
     font-size: 16px;
+    
+}
+.AUTOClick{
+    background-color: #ff00c8; 
+    border: 3px solid #ffff00;
+    color: rgb(0, 26, 255);
+    padding: 8px 25px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 16px;
+    transform: translateX(40px);
+    
+}
+
+.button{
     display: flex;
+    flex-direction: column;
+    height: 130px;
 }
