@@ -1,10 +1,15 @@
 .game{
-    display: flexbox;
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    width: 100vw;
 }
 
 .ShopTop{
     background-color: rgb(255, 183, 49);
-    width: 100vw;
+    width: 91vw;
     height: 20vh;
     display: flex;
     text-align: center;
@@ -14,19 +19,21 @@
 .CookIMG{ 
     width: 250px;
     display: flex;
-    text-align: center;
-}
 
-.field2Right{
-    width: 80vw;
-    height: 90vh;
-    display: flex;
-    transform: translateX(82%);
+    text-align: center;
+
+}
+.Click{
+    float: left;
+    width: 30vw;
+}
+.CookIMG:active {
+    transform: scale(0.98,0.98);
 }
 
 .ShopDown{
     background-color: rgb(255, 183, 49);
-    width: 100vw;
+    width: 91vw;
     height: 20vh;
     display: flex;
 }
@@ -40,6 +47,9 @@
     font-size: 16px;
     
 }
+.ButtonMagazin:active {
+    transform: scale(0.98,0.98);
+}
 .AUTOClick{
     background-color: #ff00c8; 
     border: 3px solid #ffff00;
@@ -51,9 +61,21 @@
     transform: translateX(40px);
     
 }
+.AUTOClick:active {
+    transform: scale(0.98,0.98);
+}
 
 .button{
     display: flex;
     flex-direction: column;
     height: 130px;
 }
+.button:active {
+    transform: scale(0.98,0.98);
+}
+
+.Click{
+    float: left;
+    width: 30vw;
+}
+
